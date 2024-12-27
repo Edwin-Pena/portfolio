@@ -1,6 +1,6 @@
 import "./Projects.css";
 import { splitProjectsInColumns } from "./splitDataInColumn";
-import errorgif from "../../assets/images/this-is-fine-404.gif";
+import errorgif from "/images/this-is-fine-404.gif";
 import { useEffect, useState } from "react";
 
 export interface InfoProject {

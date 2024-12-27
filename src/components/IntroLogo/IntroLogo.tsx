@@ -1,6 +1,6 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./IntroLogo.css";
-import Brand from "../../assets/images/brand.png";
+import Brand from "/images/brand.png";
 import ChevronDown from "./ChevronDown";
 import { useEffect, useState } from "react";
 

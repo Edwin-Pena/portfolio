@@ -1,47 +1,47 @@
 [
   {
     "id": "skill-1",
-    "img": "src/assets/icons/html-icon.svg",
+    "img": "/icons/html-icon.svg",
     "tooltip": "HTML"
   },
   {
     "id": "skill-2",
-    "img": "src/assets/icons/css-icon.svg",
+    "img": "/icons/css-icon.svg",
     "tooltip": "CSS"
   },
   {
     "id": "skill-3",
-    "img": "src/assets/icons/javascript-icon.svg",
+    "img": "/icons/javascript-icon.svg",
     "tooltip": "Javascript"
   },
   {
     "id": "skill-4",
-    "img": "src/assets/icons/typescript-icon.svg",
+    "img": "/icons/typescript-icon.svg",
     "tooltip": "Typescript"
   },
   {
     "id": "skill-5",
-    "img": "src/assets/icons/bootstrap-icon.svg",
+    "img": "/icons/bootstrap-icon.svg",
     "tooltip": "Bootstrap"
   },
   {
     "id": "skill-6",
-    "img": "src/assets/icons/react-icon.svg",
+    "img": "/icons/react-icon.svg",
     "tooltip": "React"
   },
   {
     "id": "skill-7",
-    "img": "src/assets/icons/git-icon.svg",
+    "img": "/icons/git-icon.svg",
     "tooltip": "Git"
   },
   {
     "id": "skill-8",
-    "img": "src/assets/icons/vscode-icon.svg",
+    "img": "/icons/vscode-icon.svg",
     "tooltip": "VS code"
   },
   {
     "id": "skill-9",
-    "img": "src/assets/icons/figma-icon.svg",
+    "img": "/icons/figma-icon.svg",
     "tooltip": "Figma"
   }
 ]

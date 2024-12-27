@@ -1,5 +1,5 @@
 import "./AboutMe.css";
-import Myphoto from "../../assets/images/edwin.png";
+import Myphoto from "/images/edwin.png";
 
 interface Props {
   description: string;

@@ -4,7 +4,7 @@
     "title": "Login Page",
     "date": "May 2024",
     "description": "Login page makes with HTML and CSS",
-    "img": "src/assets/images/login-page.png",
+    "img": "/images/login-page.png",
     "demo": "https://login-page-exercise.netlify.app/"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Pricing Page",
     "date": "June 2024",
     "description": "Pricing page makes with HTML and CSS",
-    "img": "src/assets/images/pricing-page.png",
+    "img": "/images/pricing-page.png",
     "demo": "https://pricing-page-excercise.netlify.app/"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Iconic Places",
     "date": "July 2024",
     "description": "A page about iconic places in the world",
-    "img": "src/assets/images/iconic-places.png",
+    "img": "/images/iconic-places.png",
     "demo": "https://iconic-places.netlify.app/"
   },
   {
@@ -28,7 +28,7 @@
     "title": "List Making",
     "date": "September 2024",
     "description": "List-making inspired by Trello",
-    "img": "src/assets/images/do-list.png",
+    "img": "/images/do-list.png",
     "demo": "https://github.com/Edwin-Pena/list-making"
   }
 ]
