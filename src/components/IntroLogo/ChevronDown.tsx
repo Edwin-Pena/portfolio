@@ -7,7 +7,7 @@ const ChevronDown: React.FC<Props> = ({ className }) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="currentColor"
-      className={`bi bi-chevron-double-down animate-bounce position-absolute bottom-0 ${
+      className={`bi bi-chevron-double-down animate-bounce position-absolute ${
         className || ""
       }`.trim()}
       viewBox="0 0 16 16"

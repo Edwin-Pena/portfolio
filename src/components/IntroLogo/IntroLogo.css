@@ -19,6 +19,7 @@
   width: 38px;
   height: 38px;
   color: var(--primary-white);
+  bottom: 24px;
 }
 
 .fade-in {
