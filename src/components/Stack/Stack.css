@@ -1,0 +1,94 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0 100px 0;
+}
+
+.stack-title {
+  font-size: 50px;
+  color: var(--primary-white);
+}
+
+/* -----skills------ */
+.skills {
+  display: flex;
+  padding: 16px 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 30px;
+  width: 600px;
+  margin: 30px 0 0 0;
+}
+
+.skill {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  transition: border-color 0.4s ease, box-shadow 0.2s ease;
+  align-items: center;
+  user-select: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--background-grey-boxes);
+  border-radius: 18px;
+  border: 1px solid;
+  border-color: transparent;
+  box-shadow: 0 0 0px 0px #ffffff38;
+}
+
+.tooltip {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.4s ease;
+  transition-delay: 0.2s;
+  min-width: 70px;
+  height: auto;
+  border: 1px solid var(--primary-white);
+  background: transparent;
+  color: var(--primary-white);
+  will-change: filter;
+  filter: rop-shadow(0 3px 3px hsl(0 0% 0% / 50%))
+    drop-shadow(0 12px 12px hsl(0 0% 0% / 50%));
+  backdrop-filter: blur(10px);
+  padding: 5px 15px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  margin-bottom: 10px;
+}
+
+.tooltip-name {
+  white-space: nowrap;
+  color: var(--primary-white);
+}
+
+.skill:hover {
+  border-color: var(--primary-white);
+  box-shadow: 0 0 20px 0px #ffffff38;
+}
+
+.skill:hover .tooltip {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.skill img {
+  width: 40px;
+  height: 32px;
+  object-fit: contain;
+}
+
+@media (max-width: 715px) {
+  .skills {
+    width: 100%;
+  }
+}

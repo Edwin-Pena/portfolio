@@ -1,0 +1,27 @@
+.footer {
+  margin: 0 0 15px 0;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+.footer-icons {
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+  color: var(--primary-white);
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.footer-icons:hover {
+  color: #7e7e7e;
+}

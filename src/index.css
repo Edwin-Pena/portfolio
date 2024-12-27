@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Michroma";
+  src: url("./assets/fonts/subset-Michroma-Regular.woff2") format("woff2"),
+    url("./assets/fonts/subset-Michroma-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --primary-white: #ededed;
+  --grey-desc-text: #7a7a7a;
+  --background-grey-boxes: #232323;
+}
+
+body {
+  background: #161616;
+
+  /* ---custom scroll---- */
+  scrollbar-width: thin;
+  scrollbar-color: #686868 transparent;
+}
+
+main {
+  padding: 0 30px 30px 30px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #686868;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

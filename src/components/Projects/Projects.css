@@ -1,0 +1,153 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-title {
+  font-size: 50px;
+  color: var(--primary-white);
+}
+
+.projects-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding: 50px 0;
+  justify-content: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 650px;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-error {
+  color: var(--primary-white);
+  font-size: 20px;
+}
+
+/* ----------Project-card-------- */
+
+/* -----animation for projects--- */
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.card-project-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 4px;
+  background: #1c1c1c;
+  border: 1px solid #2e2e2e;
+  border-radius: 12px;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 50%;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.img-column-one {
+  max-height: 500px;
+}
+
+.img-column-two {
+  max-height: 600px;
+}
+
+.project-desc {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  gap: 12px;
+  background: var(--background-grey-boxes);
+  white-space: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px 16px;
+  transition: background 0.2s ease;
+  border-radius: 12px;
+}
+
+.text-project {
+  display: flex;
+  gap: 6px;
+  color: var(--primary-white);
+}
+
+.desc-text {
+  color: var(--grey-desc-text);
+}
+
+.card-project-container:hover .project-desc {
+  background: #282828;
+}
+
+@media (max-width: 1090px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 60px;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
+@media (max-width: 715px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .desc-text {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+  }
+
+  .text-project {
+    font-size: 14px;
+  }
+}
