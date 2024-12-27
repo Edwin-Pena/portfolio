@@ -19,7 +19,7 @@
   width: 38px;
   height: 38px;
   color: var(--primary-white);
-  bottom: 24px;
+  bottom: 20px;
 }
 
 .fade-in {
@@ -73,4 +73,10 @@
 
 .animate-bounce {
   animation: bounce 1.5s infinite;
+}
+
+@media (max-width: 700px) {
+  .logo-intro-container svg {
+    bottom: 35px;
+  }
 }
