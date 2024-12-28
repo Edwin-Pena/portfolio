@@ -24,7 +24,7 @@
 
 .chevron-container {
   width: 100%;
-  position: fixed;
+  position: absolute;
   display: flex;
   justify-content: center;
   bottom: 0;
