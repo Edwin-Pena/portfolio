@@ -24,11 +24,12 @@
 
 .chevron-container {
   width: 100%;
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: center;
   bottom: 0;
   padding: 24px;
+  pointer-events: none;
 }
 
 .fade-in {
