@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         </li>
 
         <li className="social-link">
-          <a href="mailto:edwinsp095@gmail.com" target="_blank">
+          <a href="mailto:edwinp.developer@gmail.com" target="_blank">
             <MailIcon />
           </a>
         </li>
