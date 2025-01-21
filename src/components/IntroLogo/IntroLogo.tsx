@@ -42,6 +42,8 @@ const LogoIntro: React.FC<Props> = ({ name }) => {
       }
     };
 
+    handleScroll();
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
