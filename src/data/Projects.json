@@ -1,14 +1,6 @@
 [
   {
     "id": "p-1",
-    "title": "Login Page",
-    "date": "May 2024",
-    "description": "Login page makes with HTML and CSS",
-    "img": "/images/login-page.png",
-    "demo": "https://login-page-exercise.netlify.app/"
-  },
-  {
-    "id": "p-2",
     "title": "Pricing Page",
     "date": "June 2024",
     "description": "Pricing page makes with HTML and CSS",
@@ -16,7 +8,7 @@
     "demo": "https://pricing-page-excercise.netlify.app/"
   },
   {
-    "id": "p-3",
+    "id": "p-2",
     "title": "Iconic Places",
     "date": "July 2024",
     "description": "A page about iconic places in the world",
@@ -24,11 +16,19 @@
     "demo": "https://iconic-places.netlify.app/"
   },
   {
-    "id": "p-4",
+    "id": "p-3",
     "title": "Movie Searcher",
     "date": "January 2025",
     "description": "Movie search with API request",
     "img": "/images/movie-searcher.png",
     "demo": "https://movie-searcher-project1.netlify.app/"
+  },
+  {
+    "id": "p-4",
+    "title": "Macár",
+    "date": "March 2025",
+    "description": "Website for a women's clothing brand",
+    "img": "/images/macar-web.png",
+    "demo": "https://catalogo-macar.netlify.app/"
   }
 ]
