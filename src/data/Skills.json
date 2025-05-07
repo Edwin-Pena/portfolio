@@ -31,16 +31,26 @@
   },
   {
     "id": "skill-7",
+    "img": "/icons/node-icon.svg",
+    "tooltip": "Node.js"
+  },
+  {
+    "id": "skill-8",
+    "img": "/icons/express-icon.svg",
+    "tooltip": "Express.js"
+  },
+  {
+    "id": "skill-9",
     "img": "/icons/git-icon.svg",
     "tooltip": "Git"
   },
   {
-    "id": "skill-8",
+    "id": "skill-10",
     "img": "/icons/vscode-icon.svg",
     "tooltip": "VS code"
   },
   {
-    "id": "skill-9",
+    "id": "skill-11",
     "img": "/icons/figma-icon.svg",
     "tooltip": "Figma"
   }
