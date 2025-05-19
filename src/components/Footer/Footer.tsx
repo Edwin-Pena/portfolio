@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <ul className="social-links">
         <li className="social-link">
           <a
-            href="https://www.linkedin.com/in/edwin-pe%C3%B1a-frontend-developer/"
+            href="https://www.linkedin.com/in/edwin-pe%C3%B1a-fullstack-developer/"
             target="_blank"
           >
             <LinkedInIcon />
