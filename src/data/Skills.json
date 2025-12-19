@@ -46,16 +46,36 @@
   },
   {
     "id": "skill-10",
+    "img": "/icons/fastify-icon.svg",
+    "tooltip": "Fastify"
+  },
+  {
+    "id": "skill-11",
+    "img": "/icons/jest-icon.svg",
+    "tooltip": "Jest"
+  },
+  {
+    "id": "skill-12",
+    "img": "/icons/postgresql-icon.svg",
+    "tooltip": "PostgreSQL"
+  },
+  {
+    "id": "skill-13",
+    "img": "/icons/mongodb-icon.svg",
+    "tooltip": "MongoDB"
+  },
+  {
+    "id": "skill-14",
     "img": "/icons/git-icon.svg",
     "tooltip": "Git"
   },
   {
-    "id": "skill-11",
+    "id": "skill-15",
     "img": "/icons/vscode-icon.svg",
     "tooltip": "VS code"
   },
   {
-    "id": "skill-12",
+    "id": "skill-16",
     "img": "/icons/figma-icon.svg",
     "tooltip": "Figma"
   }
