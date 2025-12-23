@@ -1,14 +1,6 @@
 [
   {
     "id": "p-1",
-    "title": "Pricing Page",
-    "date": "June 2024",
-    "description": "Pricing page makes with HTML and CSS",
-    "img": "/images/pricing-page.png",
-    "demo": "https://pricing-page-excercise.netlify.app/"
-  },
-  {
-    "id": "p-2",
     "title": "Iconic Places",
     "date": "July 2024",
     "description": "A page about iconic places in the world",
@@ -16,7 +8,7 @@
     "demo": "https://iconic-places.netlify.app/"
   },
   {
-    "id": "p-3",
+    "id": "p-2",
     "title": "Movie Searcher",
     "date": "January 2025",
     "description": "Movie search with API request",
@@ -24,11 +16,19 @@
     "demo": "https://movie-searcher-project1.netlify.app/"
   },
   {
-    "id": "p-4",
+    "id": "p-3",
     "title": "Macár",
     "date": "March 2025",
     "description": "Website for a women's clothing brand",
     "img": "/images/macar-web.png",
     "demo": "https://www.macar.com.co/"
+  },
+  {
+    "id": "p-4",
+    "title": "iuKer API",
+    "date": "November 2025",
+    "description": "Medical appointment scheduling API",
+    "img": "/images/iuker-icon.png",
+    "demo": "https://github.com/Edwin-Pena/iuKer-api"
   }
 ]
